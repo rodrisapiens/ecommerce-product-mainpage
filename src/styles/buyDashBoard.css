@@ -1,0 +1,111 @@
+.buyDashBoard {
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  color: black;
+  -webkit-box-shadow: 0px 3px 10px 5px #e0e0e2;
+          box-shadow: 0px 3px 10px 5px #e0e0e2;
+  top: 12%;
+  right: 6%;
+  width: 20%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+.buyDashBoardHeader {
+  border-bottom: solid;
+  height: 20%;
+  border-bottom-width: thin;
+  border-bottom-color: #9e9fa3;
+  padding: 5%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+.cartDashBoard {
+  font-size: 14px;
+  color: #0a090f;
+}
+
+.howMany0 {
+  color: #686d73;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.buyDashBoardBody {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  height: 80%;
+  width: 100%;
+  padding: 5%;
+  align-items: center;
+}
+
+.insideDashBoard {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 15%;
+}
+
+.columnBuyProduct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashBoardThumbnail {
+  width: 20%;
+  border-radius: 5px;
+}
+
+.textDashBoard {
+  font-weight: 400;
+}
+
+.titleDashBoard {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.realPrice {
+  color: black;
+  font-weight: 700;
+}
+
+.trash {
+  background: transparent;
+  border-style: none;
+}
+
+.trash:hover .trashCan use {
+  fill: black;
+}
+
+.checkOutBtn {
+  background-color: #ff7d1b;
+  border-style: none;
+  border-radius: 5px;
+  height: 213%;
+  color: white;
+  font-weight: 700;
+}
+
+.checkOutBtn:hover {
+  background-color: #FFAC6A;
+}
+/*# sourceMappingURL=buyDashBoard.css.map */

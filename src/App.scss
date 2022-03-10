@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+body
+{
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+}

@@ -1,0 +1,107 @@
+.bigBigImageLayOut {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 3;
+  width: -moz-available;
+  top: 0;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bigBigImage {
+  position: relative;
+  width: 40%;
+  border-radius: 15px;
+}
+
+.closeBtn path {
+  fill: white;
+}
+
+.closeBtn path:hover {
+  fill: orange;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+}
+
+.bigBody {
+  height: -moz-fit-content;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.closeBtn {
+  margin-left: 44%;
+}
+
+/* .previousIcon path {
+    fill: ;
+}
+.nextIcon path {
+    fill: ;
+} */
+.PreviousBtn {
+  position: relative;
+  z-index: 4;
+  width: 26px;
+  right: -13px;
+  height: 35px;
+  justify-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: white;
+  border-style: none;
+  border-radius: 50%;
+  fill: white;
+}
+
+.PreviousBtn:hover .previousIcon path {
+  stroke: orange;
+}
+
+.nextBtn {
+  position: relative;
+  z-index: 4;
+  width: 26px;
+  right: 13px;
+  height: 35px;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-style: none;
+  border-radius: 50%;
+}
+
+.nextBtn:hover .nextIcon path {
+  stroke: orange;
+}
+/*# sourceMappingURL=bigBigImage.css.map */
